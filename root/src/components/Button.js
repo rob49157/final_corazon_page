@@ -1,6 +1,6 @@
 import React from 'react'
 import './Button.css'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom' 
+import {BrowserRouter as Link, Router, Switch, Route} from 'react-router-dom' 
 
 const STYLES =['btn--primary','btn--outline'] 
 
@@ -13,12 +13,12 @@ export const Button = ({children, type,onClick,buttonStyle, buttonSize}) =>{
 
 
     return(
-        <Router to= '/sign-up' classname='btn-mobile'>
+        <Link to= '/sign-up' classname='btn-mobile'>
             <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick} type={type}>
             {children}
             </button>
 
-        </Router>
+        </Link>
     )
 
 }

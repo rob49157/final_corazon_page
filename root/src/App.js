@@ -7,14 +7,14 @@ function App() {
   return(
     
    <>
-   <Navbar/>
-    {/* <BrowserRouter basename='/marketapp' >
-        <Routes>
-          <Route exact path="/" element={ <Navbar />} />
-          
+   
+   
 
-        </Routes>
-      </BrowserRouter> */}
+  <Navbar />
+  
+
+        
+        
     </>
     
   
