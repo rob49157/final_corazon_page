@@ -6,7 +6,8 @@ import {
   Router,
   Switch,
   Route,
-  Routes
+  Routes,
+  BrowserRouter
 } from "react-router-dom";
 import { Button } from "./Button";
 import "./Navbar.css";
@@ -89,13 +90,14 @@ function Navbar() {
           {button && <Button buttonStyle="btn--outline"> SIGNUP</Button>}
         </div>
       </nav>
-
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={Home}></Route>
         <Route path="/services" element={Services}></Route>
         <Route path="/products" element={Products}></Route>
         <Route path="/sign-up" element={SignUp}></Route>
       </Routes>
+      </BrowserRouter>
     </>
   );
 }
