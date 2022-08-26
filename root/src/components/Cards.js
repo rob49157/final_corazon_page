@@ -5,24 +5,25 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>About me!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/img-10.jpg'
+              text='MAX​ - 
+              Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation.'
+              label='Intuitive Tarot'
               path='/services'
             />
-            <CardItem
+            {/* <CardItem
               src='images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
-            />
+            /> */}
           </ul>
-          <ul className='cards__items'>
+          {/* <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
@@ -41,7 +42,7 @@ function Cards() {
               label='Adrenaline'
               path='/sign-up'
             />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
