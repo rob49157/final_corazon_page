@@ -12,7 +12,7 @@ function HeroSection() {
 MAX​ - 
 Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation.
 ​Schedule with Max here</p> */}
-      <div className='hero-btns'>
+      <div className='hero-btns' >
         {/* <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -25,8 +25,9 @@ Max touches base on issues that may be difficult and will give you a detailed un
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
+          
         >
-          WATCH YOUTUBE  <i className='far fa-play-circle' />
+          WATCH YOUTUBE  <i className='far fa-play-circle'  />
         </Button>
       </div>
     </div>

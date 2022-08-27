@@ -14,6 +14,7 @@ function Cards() {
               text='MAX​ - 
               Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation.'
               label='Intuitive Tarot'
+              
               path='/services'
             />
             {/* <CardItem
@@ -23,26 +24,28 @@ function Cards() {
               path='/services'
             /> */}
           </ul>
-          {/* <ul className='cards__items'>
+          <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/img-12.jpg'
+              text='Tarot card reading is a form of cartomancy whereby practitioners use tarot cards purportedly to gain insight into the past, present or future. They formulate a question, then draw cards to interpret them for this end.'
+              label='Tarot'
               path='/services'
+              
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/img-home.jpg'
+              text='Reiki therapy is based on an Eastern belief that vital energy flows through your body. The idea is that a Reiki practitioner uses gentle touch -- or places their hands just above your body -- to help guide this energy in a way that promotes balance and healing.'
+              label='Rakki'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/img-11.jpg'
+              text='What astrology really means?
+              Astrology is generally defined as the belief that astronomical phenomena, like the stars overhead when you were born or the fact that Mercury is in retrograde, have the power to influence the daily events in our lives and our personality traits.'
+              label='Astrology'
               path='/sign-up'
             />
-          </ul> */}
+          </ul>
         </div>
       </div>
     </div>
