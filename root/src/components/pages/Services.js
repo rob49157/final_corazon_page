@@ -33,7 +33,7 @@ export default function Services() {
         
         <ul className='cards__items'>
           <CardItem
-            src='images/img-13.jpg'
+            src='images/img-12.jpg'
             
             text='This is a 30 min sessions. $20'
             label='Tarot'
@@ -42,13 +42,13 @@ export default function Services() {
             
           />
           <CardItem
-            src='images/img-15.webp'
+            src='images/img-12.jpg'
             text='This is a 1hr min sessions. $50'
             label='Tarot'
             path='/products'
           />
           <CardItem
-            src='images/img-14.jpg'
+            src='images/img-12.jpg'
             text='This is a 2hr sessions. 
             $80'
             label='Tarot'

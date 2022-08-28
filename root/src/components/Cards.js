@@ -28,12 +28,12 @@ function Cards() {
             <CardItem
               src='images/img-12.jpg'
               text='Tarot card reading is a form of cartomancy whereby practitioners use tarot cards purportedly to gain insight into the past, present or future. They formulate a question, then draw cards to interpret them for this end.'
-              label='Tarot'
+             label='Tarot'
               path='/services'
               
             />
             <CardItem
-              src='images/img-home.jpg'
+              src='images/img-13.jpg'
               text='Reiki therapy is based on an Eastern belief that vital energy flows through your body. The idea is that a Reiki practitioner uses gentle touch -- or places their hands just above your body -- to help guide this energy in a way that promotes balance and healing.'
               label='Rakki'
               path='/products'
