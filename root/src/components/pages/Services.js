@@ -2,6 +2,9 @@ import React from 'react';
 import '../../App.css';
 import CardItem from '../CardItem';
 import Cards from '../Cards';
+import Contact from './Contact';
+
+
 
 export default function Services() {
   return (
@@ -53,9 +56,12 @@ export default function Services() {
           />
         </ul>
         <h1>Please contact me here to Schedule your appointment and select payment methods</h1>
-      </div>
+        <Contact/>
+      </div> 
     </div>
+   
   </div>
+  
 
 
   )
