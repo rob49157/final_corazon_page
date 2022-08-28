@@ -17,12 +17,12 @@ function Cards() {
               
               path='/services'
             />
-            {/* <CardItem
+            <CardItem
               src='images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
-            /> */}
+            />
           </ul>
           <ul className='cards__items'>
             <CardItem
