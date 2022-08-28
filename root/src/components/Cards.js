@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import Maxpic from '../image/img-10.jpg'
 
 function Cards() {
   return (
@@ -8,7 +9,12 @@ function Cards() {
       <h1>About me!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
+          <div className='maxprofile'> 
+          <h1> MAX</h1>
+            <img className='maxpic' src={Maxpic}></img>
+            <p id='paragraph'> Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation. </p>
+          </div>
+          {/* <ul className='cards__items'>
             <CardItem
               src='images/img-10.jpg'
               text='MAX​ - 
@@ -23,7 +29,7 @@ function Cards() {
               label='Luxury'
               path='/services'
             />
-          </ul>
+          </ul> */}
           <ul className='cards__items'>
             <CardItem
               src='images/img-12.jpg'
