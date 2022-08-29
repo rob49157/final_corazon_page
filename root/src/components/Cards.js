@@ -10,17 +10,17 @@ function Cards() {
       <h1>About me!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          {/* <div className='maxprofile'> 
+          <div className='maxprofile'> 
           <h1> MAX</h1>
             <img className='maxpic' src={Maxpic}></img>
-            <p className='paragraph'> Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation. </p>
-          </div> */}
-          <div>
+            <span className='paragraph'> Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation. </span>
+          </div>
+          {/* <div>
             <Aboutme
              
              
              />
-          </div>
+          </div> */}
           {/* <ul className='cards__items'>
             <CardItem
               src='images/img-10.jpg'
@@ -49,14 +49,14 @@ function Cards() {
               src='images/img-13.jpg'
               text='Reiki therapy is based on an Eastern belief that vital energy flows through your body. The idea is that a Reiki practitioner uses gentle touch -- or places their hands just above your body -- to help guide this energy in a way that promotes balance and healing.'
               label='Rakki'
-              path='/products'
+              path='/services'
             />
             <CardItem
               src='images/img-11.jpg'
               text='What astrology really means?
               Astrology is generally defined as the belief that astronomical phenomena, like the stars overhead when you were born or the fact that Mercury is in retrograde, have the power to influence the daily events in our lives and our personality traits.'
               label='Astrology'
-              path='/sign-up'
+              path='/services'
             />
           </ul>
         </div>
