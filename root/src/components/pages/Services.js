@@ -54,7 +54,24 @@ export default function Services() {
             label='Tarot'
             path='/sign-up'
           />
+          <CardItem
+            src='images/img-11.jpg'
+            text='Astrology, Coming soon!' 
+            
+            label='Tarot'
+            path='/sign-up'
+          />
+          <CardItem
+            src='images/img-13.jpg'
+            text='Rakki, Coming soon!'
+            label='Tarot'
+            path='/sign-up'
+          />
+          
         </ul>
+        
+       
+          
         <h1>Please contact me here to Schedule your appointment and select payment methods</h1>
         <Contact/>
       </div> 

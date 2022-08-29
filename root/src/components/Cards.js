@@ -2,6 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import Maxpic from '../image/img-10.jpg'
+import Aboutme from './pages/Aboutme';
 
 function Cards() {
   return (
@@ -9,10 +10,16 @@ function Cards() {
       <h1>About me!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <div className='maxprofile'> 
+          {/* <div className='maxprofile'> 
           <h1> MAX</h1>
             <img className='maxpic' src={Maxpic}></img>
-            <p id='paragraph'> Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation. </p>
+            <p className='paragraph'> Max touches base on issues that may be difficult and will give you a detailed understanding of any underlying emotional blockages.  He has a mission to help others develop their inner child and assist those who seek a greater understanding of self.  His goal is to make a positive impact as a tarot reader with his gift of deep intuition.  His keywords are healing, insight, self-realization, and transformation. </p>
+          </div> */}
+          <div>
+            <Aboutme
+             
+             
+             />
           </div>
           {/* <ul className='cards__items'>
             <CardItem
