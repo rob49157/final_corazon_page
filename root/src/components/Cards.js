@@ -10,6 +10,7 @@ function Cards() {
       <h1>About me!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
+          
           <div className='maxprofile'> 
           <h1> MAX</h1>
             <img className='maxpic' src={Maxpic}></img>
