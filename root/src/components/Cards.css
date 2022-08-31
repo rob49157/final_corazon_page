@@ -165,14 +165,14 @@ h1 {
 
 @media only screen and (min-device-width: 390px) and (max-width:884px) {
   .paragraph {
-    width: 84%;
+    width: 100%;
     display: flex;
     margin-bottom: 2rem;
   
   }
 
   .maxpic {
-    width: 350px;
+    width: 300px;
     border-radius: 20px 20px 20px 20px;
 
   }
