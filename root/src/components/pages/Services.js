@@ -37,7 +37,7 @@ export default function Services() {
             
             text='This is a 30 min sessions. $20'
             label='Tarot'
-            path='/services'
+            
             
             
           />
@@ -45,27 +45,27 @@ export default function Services() {
             src='images/img-12.jpg'
             text='This is a 1hr min sessions. $50'
             label='Tarot'
-            path='/products'
+            path='/services'
           />
           <CardItem
             src='images/img-12.jpg'
             text='This is a 2hr sessions. 
             $80'
             label='Tarot'
-            path='/sign-up'
+            path='/services'
           />
           <CardItem
             src='images/img-11.jpg'
             text='Astrology, Coming soon!' 
             
             label='Tarot'
-            path='/sign-up'
+            path='/services'
           />
           <CardItem
             src='images/img-13.jpg'
             text='Rakki, Coming soon!'
             label='Tarot'
-            path='/sign-up'
+            path='/services'
           />
           
         </ul>
