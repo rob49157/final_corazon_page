@@ -161,6 +161,20 @@ h1 {
 
 }
 
+.quote{
+  text-align: left;
+  float: left;
+  width: 70%;
+  padding: 40px;
+  padding-left: 10px;
+  padding-right: 70px;
+
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+
+}
+
 
 
 @media only screen and (min-device-width: 390px) and (max-width:884px) {
@@ -175,6 +189,12 @@ h1 {
     width: 300px;
     border-radius: 20px 20px 20px 20px;
 
+  }
+  .quote {
+    width: 150%;
+    display: flex;
+    margin-bottom: -1rem;
+  
   }
 }
 
