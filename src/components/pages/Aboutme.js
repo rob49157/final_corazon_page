@@ -20,7 +20,7 @@ function Aboutme() {
          He has a mission to help others develop their inner child and assist those who seek a greater understanding of self. 
          His goal is to make a positive impact as a tarot reader with his gift of deep intuition. His keywords are healing, insight, self-realization, and transformation
          
-         gdsfgdsfgdsfgsdfg</h5>
+         </h5>
       </div>
     
   </li>

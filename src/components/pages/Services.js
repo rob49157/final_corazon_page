@@ -12,7 +12,7 @@ export default function Services() {
     <div className='cards'>
     <h1>Offerings!</h1>
     <div className='cards__container'>
-    <h1>Tarot Readings</h1>
+    
       <div className='cards__wrapper'>
         {/* <ul className='cards__items'>
           <CardItem
@@ -35,7 +35,7 @@ export default function Services() {
           <CardItem
             src='images/img-12.jpg'
             
-            text='This is a 30 min sessions. $20'
+            text='This is a 10 min sessions. $20'
             label='Tarot'
             
             
@@ -43,14 +43,14 @@ export default function Services() {
           />
           <CardItem
             src='images/img-12.jpg'
-            text='This is a 1hr min sessions. $50'
+            text='This is a 30min min sessions. $60'
             label='Tarot'
             path='/services'
           />
           <CardItem
             src='images/img-12.jpg'
-            text='This is a 2hr sessions. 
-            $80'
+            text='This is a 1hr sessions. $100'
+            
             label='Tarot'
             path='/services'
           />
@@ -63,7 +63,7 @@ export default function Services() {
           />
           <CardItem
             src='images/img-13.jpg'
-            text='Rakki, Coming soon!'
+            text='Reiki, Coming soon!'
             label='Tarot'
             path='/services'
           />
