@@ -198,6 +198,35 @@ h1 {
   }
 }
 
+@media only screen and (min-device-width: 375px) and (max-width:667px) {
+
+  .paragraph {
+    width: 100%;
+    
+    display: flex;
+    margin-bottom: -1rem;
+  
+  }
+
+  .maxpic {
+    width: 84%;
+    margin-left: 8%;
+    border-radius: 20px 20px 20px 20px;
+
+  }
+  .quote {
+    width: 150%;
+    display: flex;
+    margin-left: 30%;
+   
+    margin-bottom: -20rem;
+  
+  }
+
+}
+
+
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
