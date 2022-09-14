@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "name": "Tarot",
+        "time": 10,
+        "price": 20,
+        "imgUrl":"images/img-12.jpg"
+    },
+    {
+        "id":2,
+        "name": "Tarot",
+        "time": 30,
+        "price": 60,
+        "imgUrl":"images/img-12.jpg"
+    },
+    {
+        "id":3,
+        "name": "Tarot",
+        "time": 60,
+        "price": 100,
+        "imgUrl":"images/img-12.jpg"
+    }
+
+]
