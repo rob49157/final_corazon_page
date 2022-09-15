@@ -6,19 +6,20 @@ var ShoppingCartProviderProps ={
     children: ReactNode
 }
 
-var ShoppingCartContext1 ()=>{
-    getItemQuantity : (id)=> id,
-    increaseCartQuantity : (id )=> void,
-    decreaseCartQuantity : (id)=> void,
-    removeFromCart : (id) => void,
+ var ShoppingCartContext1 = ()=>{
+    getItemQuantity :  id
+    increaseCartQuantity : null
+    decreaseCartQuantity :  null
+    removeFromCart :  null
 }
+
 
 
 
 const ShoppingCartContext =createContext({})
 
 export function useShoppingCart(){
-    return useContext(ShoppingCartContext)
+    return useContext(ShoppingCartContext1)
 }
 
 
