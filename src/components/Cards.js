@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import Maxpic from '../image/img-10.jpg'
-import Aboutme from './pages/Aboutme';
+import Aboutme from './Aboutme';
 
 function Cards() {
   return (

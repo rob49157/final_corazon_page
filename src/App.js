@@ -1,19 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import Navbar from './components/Navbar';
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
-
-
+import Services from './components/Services';
+import Products from './components/Products';
+import SignUp from './components/SignUp';
+import commerce from './lib/Commerce';
+import './styles/scss/styles.scss';
 
 function App() {
+
   return (
     
-  
       <Router>
         <Navbar />
         <Switch>
