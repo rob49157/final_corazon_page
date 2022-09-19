@@ -1,19 +1,20 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import formatcurrency from "../utilities/formatcurrency";
+import PropTypes from 'prop-types';
+import Commerce from '@chec/commerce.js';
 
-// const StoreItemprops ={
-//     id: Number,
-//     name: String,
-//     price: Number,
-//     time: Number,
-//     imgUrl: String
 
-// }
+
+
+
+
+
+
 
 function StoreItem({ id, name, price, time, imgUrl }) {
   // StoreItemprops
-  const quantity = 1;
+  const quantity = 0;
 
   return (
     <Card className="h-100">

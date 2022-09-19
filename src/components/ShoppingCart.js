@@ -4,6 +4,11 @@ import ProductsList from './components/ProductsList'
 
 
 function ShoppingCart() {
+  const checAPIKey = process.env.REACT_APP_CHEC_PUBLIC_KEY;
+  
+  const commerce = new Commerce(checAPIKey);
+
+  const [cart, setCart]= useState({})
     
     const fetchProducts = () => {
         commerce.products.list().then((products) => {
@@ -13,12 +18,21 @@ function ShoppingCart() {
         });
       }
 
+     
+   
+
       useEffect(()=>{
         fetchProducts();
+       
 
       }, [])
 
-const [products,setProducts]= useState([])
+
+ 
+
+ 
+
+
   return (
     <div>ShoppingCart</div>
   )
