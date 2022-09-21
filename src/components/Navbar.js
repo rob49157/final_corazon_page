@@ -3,8 +3,9 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { Container } from "react-bootstrap";
+import CartNav from './CartNav'
 
-function Navbar() {
+function Navbar({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -67,6 +68,12 @@ function Navbar() {
                 Shopping Cart
                 <div className="rounded-circle bg-danger d-flex justify-content-center align-items-center">3</div>
               </Link>
+              <CartNav 
+                cart={cart}
+                onUpdateCartQty={onUpdateCartQty}
+                onRemoveFromCart={onRemoveFromCart}
+                onEmptyCart={onEmptyCart}
+              />
             </li>
 
             {/* <li>

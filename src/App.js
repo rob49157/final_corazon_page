@@ -6,23 +6,107 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/Services';
 import Products from './components/Products';
-import SignUp from './components/SignUp';
+
 import commerce from './lib/Commerce';
 import './styles/scss/styles.scss';
+import ShoppingCart from './components/ShoppingCart'
+
 
 function App() {
+  const [cart, setCart] = useState({});
+
+
+   useEffect(() => {
+    fetchCart();
+   }, []);
+
+  /**
+   * Retrieve the current cart or create one if one does not exist
+   * https://commercejs.com/docs/sdk/cart
+   */
+   const fetchCart = () => {
+    commerce.cart.retrieve().then((cart) => {
+      setCart(cart);
+    }).catch((error) => {
+      console.log('There was an error fetching the cart', error);
+    });
+  }
+
+  /**
+   * Adds a product to the current cart in session
+   * https://commercejs.com/docs/sdk/cart/#add-to-cart
+   *
+   * @param {string} productId The ID of the product being added
+   * @param {number} quantity The quantity of the product being added
+   */
+  const handleAddToCart = (productId, quantity) => {
+    commerce.cart.add(productId, quantity).then((item) => {
+      setCart(item.cart);
+    }).catch((error) => {
+      console.error('There was an error adding the item to the cart', error);
+    });
+  }
+
+  const handleRemoveFromCart = (lineItemId) => {
+    commerce.cart.remove(lineItemId).then((resp) => {
+      setCart(resp.cart);
+    }).catch((error) => {
+      console.error('There was an error removing the item from the cart', error);
+    });
+  }
+
+  /**
+   * Empties cart contents
+   * https://commercejs.com/docs/sdk/cart/#remove-from-cart
+   */
+  const handleEmptyCart = () => {
+    commerce.cart.empty().then((resp) => {
+      setCart(resp.cart);
+    }).catch((error) => {
+      console.error('There was an error emptying the cart', error);
+    });
+  }
+
+   /**
+   * Updates line_items in cart
+   * https://commercejs.com/docs/sdk/cart/#update-cart
+   *
+   * @param {string} lineItemId ID of the cart line item being updated
+   * @param {number} newQuantity New line item quantity to update
+   */
+  const handleUpdateCartQty = (lineItemId, quantity) => {
+    commerce.cart.update(lineItemId, { quantity }).then((resp) => {
+      setCart(resp.cart);
+    }).catch((error) => {
+      console.log('There was an error updating the cart items', error);
+    });
+  }
 
   return (
+
+  
     
       <Router>
-        <Navbar />
+        <Navbar 
+                cart={cart}
+                onUpdateCartQty={handleUpdateCartQty}
+                onRemoveFromCart={handleRemoveFromCart}
+                onEmptyCart={handleEmptyCart}/>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          {/* <Route path='/sign-up' component={SignUp} /> */}
+          {/* <Route path='/products' component={Products} /> */}
+          <Route
+            path="/products"
+            render={(props) => <Products 
+              onAddToCart={handleAddToCart}/>}
+          />
         </Switch>
       </Router>
+     
+
+      
+     
       
     
   );
