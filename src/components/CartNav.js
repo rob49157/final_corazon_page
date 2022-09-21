@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faShoppingBag, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { Button, Card } from "react-bootstrap";
 
 library.add(faShoppingBag, faTimes);
 
@@ -14,14 +15,14 @@ const CartNav = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
         <div className="nav">
             <div className="nav__cart" onClick={() => setCartVisible(!isCartVisible)}>
                 {!isCartVisible ? (
-                <button className="nav__cart-open">
+                <Button variant="white" className="nav__cart-open">
                     <FontAwesomeIcon size="2x" icon="shopping-bag" color="#292B83"/>
                     {cart !== null ? <span>{cart.total_items}</span> : ''}
-                </button>
+                </Button>
                 ) : (
-                    <button className="nav__cart-close">
+                    <Button className="nav__cart-close" variant="danger">
                     <FontAwesomeIcon size="1x" icon="times" color="white"/>
-                    </button>
+                    </Button>
                 )}
             </div>
             {isCartVisible &&
