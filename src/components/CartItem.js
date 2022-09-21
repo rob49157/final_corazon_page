@@ -12,13 +12,14 @@ const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
   };
 
   return (
-    <Card >
+    <Card className="mt-2">
       <Card.Img
         variant="top"
         height="400px"
+        
 		
         style={{ objectFit: "cover" }}
-        className="cart-item__image"
+        className="cart-item__image "
         src={item.image.url}
         alt={item.name}
       />
