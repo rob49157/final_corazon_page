@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CartItem from './CartItem';
 import PropTypes from 'prop-types';
+import { Button, Card } from "react-bootstrap";
 
 const Cart = ({ cart, onEmptyCart, onUpdateCartQty, onRemoveFromCart }) => {
 
@@ -33,10 +34,12 @@ const Cart = ({ cart, onEmptyCart, onUpdateCartQty, onRemoveFromCart }) => {
   );
 
   const renderTotal = () => (
+    <Card >
     <div className="cart__total">
       <p className="cart__total-title">Subtotal:</p>
       <p className="cart__total-price">{cart.subtotal.formatted_with_symbol}</p>
     </div>
+    </Card>
   );
 
   return (
@@ -45,9 +48,9 @@ const Cart = ({ cart, onEmptyCart, onUpdateCartQty, onRemoveFromCart }) => {
       { renderEmptyMessage() }
       { renderItems() }
       { renderTotal() }
-      <div className="cart__footer">
-        <button className="cart__btn-empty">Empty cart</button>
-        <button className="cart__btn-checkout">Checkout</button> 
+      <div className="d-flex align-items-center justify-content-center" style={{ gap: ".9rem" }}>
+        <Button className="cart__btn-empty">Empty cart</Button>
+        <Button className="cart__btn-checkout">Checkout</Button> 
       </div>
     </div>
   );
