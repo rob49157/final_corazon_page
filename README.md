@@ -16,3 +16,8 @@ https://commercejs.com/docs/community/creating-a-cart-with-react-js/
 https://dashboard.chec.io/
 
 https://commercejs.com/docs/guides/cart-react
+
+### checkout link
+# en app.js de la linea 121 empeze con el checkout. estoy en el step 1. cree el 
+# HERO.js 
+https://commercejs.com/docs/guides/checkout-react/#overview

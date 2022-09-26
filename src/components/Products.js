@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 import ProductItem from './ProductItem';
 import commerce from '../lib/Commerce';
+import Contact from './Contact'
 
 const Products = ({onAddToCart}) => {
     const [products, setProducts] = useState([]);
@@ -25,7 +26,9 @@ const Products = ({onAddToCart}) => {
 
   }
     return (
+      
         <div className="products" id="products">
+       
             { products.map((product) => (
                 <ProductItem
                     key={product.id}
@@ -33,7 +36,10 @@ const Products = ({onAddToCart}) => {
                     onAddToCart={onAddToCart}
                 />
             ))}
+            <div className="text-secondary"><h1 >Contact Me =></h1></div>
+             <Contact/>
         </div>
+       
     );
 };
 
