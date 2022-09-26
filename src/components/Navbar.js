@@ -27,7 +27,7 @@ function Navbar({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) {
   window.addEventListener("resize", showButton);
 
   return (
-    <NavbarBs sticky="top" className="bg-white shadow mb-3">
+    <NavbarBs sticky="top" className="bg-light shadow mb-3">
     <Container>
       <Nav className="me-auto">
         <Nav.Link to="/" as={NavLink}>
