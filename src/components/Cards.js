@@ -38,10 +38,13 @@ function Cards() {
           <div className='maxprofile'> 
           
             <img className='maxpic' src={Maxpic}></img>
-            <span className='paragraph'> Max touches base on issues that are hard to deal with and will give you a detailed understanding of emotional blockages. He has a mission to help others develop their inner child and assist those that seek a greater understanding of self. His keywords are healing, insight, self-realization, and transformation. 
+            <span className='paragraph'> Maximiliano touches base on issues that are hard to deal with and will give you a detailed understanding of emotional blockages. He has a mission to help others develop their inner child and assist those that seek a greater understanding of self. His keywords are healing, insight, self-realization, and transformation. 
              <span className='quote'> "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.”
 
           ― Lao Tzu. </span>
+        <span className='quote1'> "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.”
+
+― Lao Tzu. </span>
             </span>
           </div>
           {/* <div>

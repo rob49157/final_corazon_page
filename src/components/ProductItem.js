@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Commerce from "@chec/commerce.js";
 import { Button, Card } from "react-bootstrap";
+import Paypal from "./Paypal.js"
 
 
 const ProductItem = ({ product, onAddToCart }) => {
@@ -29,14 +30,15 @@ const handleAddToCart = () => {
           <span className="ms-2 text-muted">
             {product.price.formatted_with_symbol}
           </span>
+          {/* <Button><Paypal/></Button> */}
         </Card.Title>
-        <button
-            name="Add to cart"
-            className="product__btn"
-            onClick={handleAddToCart}
-          >
-          Quick add
-        </button>
+        {/*<button*/}
+        {/*    name="Add to cart"*/}
+        {/*    className="product__btn"*/}
+        {/*    onClick={handleAddToCart}*/}
+        {/*  >*/}
+        {/*  Quick add*/}
+        {/*</button>*/}
         {/* <div className="mt-auto">
           <Button className="w-100" > Buy </Button>
         </div> */}

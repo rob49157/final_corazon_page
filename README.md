@@ -21,3 +21,15 @@ https://commercejs.com/docs/guides/cart-react
 # en app.js de la linea 121 empeze con el checkout. estoy en el step 1. cree el 
 # HERO.js 
 https://commercejs.com/docs/guides/checkout-react/#overview
+
+### paypal
+https://developer.paypal.com/docs/checkout/standard/customize/single-page-app/
+
+https://www.paypal.com/buttons/smart?flowloggingId=8a47de0f82d100
+
+## useEffect debugg for script
+https://dev.to/collegewap/how-to-add-script-tag-to-reactjsx-2888 
+
+
+### paypal
+cree el Paypal.js y en prodcut items estoy colocando el boton
