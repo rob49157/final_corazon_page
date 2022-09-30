@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "./Button";
 import { Link, NavLink } from "react-router-dom";
 // import "./Navbar.css";
 import { Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
-import CartNav from './CartNav'
 
 function Navbar({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) {
   const [click, setClick] = useState(false);
@@ -36,12 +34,6 @@ function Navbar({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) {
         <Nav.Link to="/Products" as={NavLink}>
           Store
         </Nav.Link>
-        <CartNav 
-                cart={cart}
-                onUpdateCartQty={onUpdateCartQty}
-                onRemoveFromCart={onRemoveFromCart}
-                onEmptyCart={onEmptyCart}
-              />
       
       </Nav>
      

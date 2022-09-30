@@ -3,7 +3,6 @@ import { Button } from "./Button";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
-import CartNav from './CartNav'
 
 function Navbar({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) {
   const [click, setClick] = useState(false);

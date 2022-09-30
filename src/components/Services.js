@@ -1,7 +1,5 @@
 import React from "react";
 import "../App.css";
-import CardItem from "./CardItem";
-import Cards from "./Cards";
 import Contact from "./Contact";
 import StoreItems from "../data/items.json";
 import { Col, Row } from "react-bootstrap";
