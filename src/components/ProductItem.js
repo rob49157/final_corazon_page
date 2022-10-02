@@ -24,10 +24,11 @@ const ProductItem = ({product, updateServiceChange}) => {
 
                     <span className="ms-2 text-muted">
           </span>
-                </Card.Title>
-                <span >Select</span> <input type="radio" value={product.price} name="service_amount"
+          <span className="ms-2 text-muted">{product.price.formatted_with_symbol}</span>
+                 <input type="radio" value={product.price} name="service_amount"
                                            onChange={handleServiceChange}/>
-                <span>{product.price.formatted_with_symbol}</span>
+               
+                </Card.Title>
             </Card.Body>
         </Card>
     );

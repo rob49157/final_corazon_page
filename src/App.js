@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Products from "./components/Products";
 import commerce from "./lib/Commerce";
 import "./styles/scss/styles.scss";
+import StoreItem from "./components/StoreItem"
 
 function App() {
   const [cart, setCart] = useState({});
@@ -43,6 +44,11 @@ function App() {
           path="/products"
           render={(props) => <Products />}
         />
+        <Route
+          path="/StoreItem"
+          render={(props) => <StoreItem />}
+        />
+
 
         {/* <Route
           path="/"

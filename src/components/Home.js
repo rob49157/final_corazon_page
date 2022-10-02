@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
 
-      <img  className="banner" src="images/banner.jpg"/>
+      {/* <img  className="banner" src="images/banner.jpg"/> */}
       <Cards />
     </>
   );
