@@ -198,7 +198,7 @@ margin-top: -50px;
 @media only screen and (min-device-width: 390px) and (max-width:884px) {
   .paragraph {
     width: 100%;
-    display: flex;
+    
     margin-bottom: -1rem;
   
   }
@@ -210,8 +210,17 @@ margin-top: -50px;
   }
   .quote {
     width: 150%;
-    display: flex;
+    
     margin-bottom: -1rem;
+    margin-top: 4px;
+    
+  
+  }
+  .quote1 {
+    width: 150%;
+    display: flex;
+  
+    margin-top: 4px;
   
   }
 }
