@@ -16,6 +16,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^5.2.1",
+    "express": "^4.17.1",
     "node-sass": "^4.14.1",
     "prop-types": "^15.8.1",
     "react": "^16.13.1",
@@ -28,9 +29,7 @@
     "react-scripts": "3.4.1",
     "serve": "^14.0.1",
     "string-strip-html": "^11.6.4",
-    "styled-components": "^5.3.5",
-    "express": "^4.17.1"
-   
+    "styled-components": "^5.3.5"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -53,5 +52,8 @@
   "devDependencies": {
     "@babel/core": "^7.17.4",
     "@babel/preset-env": "^7.7.4"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
