@@ -9,6 +9,7 @@ import Products from "./components/Products";
 import commerce from "./lib/Commerce";
 import "./styles/scss/styles.scss";
 import StoreItem from "./components/StoreItem"
+import Social from "./components/Social.js"
 
 function App() {
   const [cart, setCart] = useState({});
@@ -47,6 +48,10 @@ function App() {
         <Route
           path="/StoreItem"
           render={(props) => <StoreItem />}
+        />
+        <Route
+          path="/Social"
+          render={(props) => <Social />}
         />
 
 
