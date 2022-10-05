@@ -27,10 +27,13 @@ function Cards() {
               src='images/img-11.jpg'
               text='What astrology really means?
               Astrology is generally defined as the belief that astronomical phenomena, like the stars overhead when you were born or the fact that Mercury is in retrograde, have the power to influence the daily events in our lives and our personality traits.'
+             
               label='Astrology'
               path='/Products'
             />
+            
           </ul>
+         
       <h1>About me!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>

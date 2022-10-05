@@ -53,6 +53,7 @@ function Store() {
             }
 
     </Row>
+    <h2>I will contact you within 24hrs after the purchase to schedule reading</h2>
     </>
         
   )
