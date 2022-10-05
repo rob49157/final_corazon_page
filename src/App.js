@@ -5,11 +5,12 @@ import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Services from "./components/Services";
-import Products from "./components/Products";
+// import Products from "./components/Products";
 import commerce from "./lib/Commerce";
 import "./styles/scss/styles.scss";
 import StoreItem from "./components/StoreItem"
 import Social from "./components/Social.js"
+import Store from "./components/Store.js"
 
 function App() {
   const [cart, setCart] = useState({});
@@ -41,10 +42,10 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/services" component={Services} />
         {/* <Route path='/products' component={Products} /> */}
-        <Route
+        {/* <Route
           path="/products"
           render={(props) => <Products />}
-        />
+        /> */}
         <Route
           path="/StoreItem"
           render={(props) => <StoreItem />}
@@ -52,6 +53,10 @@ function App() {
         <Route
           path="/Social"
           render={(props) => <Social />}
+        />
+          <Route
+          path="/Store"
+          render={(props) => <Store />}
         />
 
 
