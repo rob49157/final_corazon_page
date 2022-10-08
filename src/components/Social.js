@@ -18,7 +18,7 @@ function Social() {
               xmlns="http://www.w3.org/2000/svg"
               width="90"
               height="90"
-              fill="currentColor"
+              fill="red"
               class="bi bi-twitter"
               viewBox="0 0 16 16"
               
@@ -31,7 +31,7 @@ function Social() {
               xmlns="http://www.w3.org/2000/svg"
               width="90"
               height="90"
-              fill="currentColor"
+              fill="black"
               class="bi bi-twitter"
               viewBox="0 0 16 16"
               

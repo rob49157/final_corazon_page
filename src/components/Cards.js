@@ -13,7 +13,7 @@ function Cards() {
             <CardItem
               src='images/img-12.jpg'
               text='Tarot card reading is a form of cartomancy whereby practitioners use tarot cards purportedly to gain insight into the past, present or future. They formulate a question, then draw cards to interpret them for this end.'
-             label='Tarot'
+              label='Tarot'
               path='/Products'
               
             />
@@ -35,6 +35,8 @@ function Cards() {
           </ul>
          
       <h1>About me!</h1>
+    
+      
       <div className='cards__container'>
         <div className='cards__wrapper'>
           

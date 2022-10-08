@@ -6,6 +6,8 @@ import {PayPalButtons, PayPalScriptProvider} from "@paypal/react-paypal-js";
 
 
 function Store() {
+    const paypalkey = process.env.PAYPAL_CHECKOUT;
+    
     const [servicePrice, setservicePrice] = useState(0);
     const [radioSelected, setRadioSelected] = useState(0);
 
@@ -14,9 +16,10 @@ function Store() {
         setRadioSelected(1);
         setservicePrice(service_price);
     };
-  
+    
     const initialOptions = {
-        "client-id": "test",
+       
+            "client-id": "AYkGqbQwyJnA3MJrO5sQn4OO-hi2WCgGrliB1x6RNLOa5kp2Ah_0GwMpsdb85M67h-pU_U2DH6ktqMJw",
         currency: "USD",
         intent: "capture"
     };
