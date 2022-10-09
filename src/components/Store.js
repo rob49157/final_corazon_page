@@ -5,6 +5,7 @@ import StoreItem from "./StoreItem.js"
 import {PayPalButtons, PayPalScriptProvider} from "@paypal/react-paypal-js";
 
 
+
 function Store() {
     
     const [servicePrice, setservicePrice] = useState(0);
