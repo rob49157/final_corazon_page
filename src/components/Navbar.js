@@ -34,7 +34,7 @@ function Navbar({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) {
         <Nav.Link to="/Store" as={NavLink}>
           Store 
         </Nav.Link>
-        <Nav.Link to="/Social" as={NavLink}>
+        <Nav.Link to="/Contact" as={NavLink}>
           Contact me
         </Nav.Link>
         

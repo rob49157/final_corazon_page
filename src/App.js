@@ -51,7 +51,7 @@ function App() {
           render={(props) => <StoreItem />}
         />
         <Route
-          path="/Social"
+          path="/Contact"
           render={(props) => <Social />}
         />
           <Route
