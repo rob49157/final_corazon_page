@@ -6,11 +6,11 @@ import {PayPalButtons, PayPalScriptProvider} from "@paypal/react-paypal-js";
 
 
 function Store() {
-    const paypalkey = process.env.PAYPAL_CHECKOUT;
     
     const [servicePrice, setservicePrice] = useState(0);
     const [radioSelected, setRadioSelected] = useState(0);
-
+    
+    const paypal_clnt_id = process.env.REACT_APP_PAYPAL_CHECKOUT;
     const updateServiceChange = (service_price) => {
         // serviceValue = service_price;
         setRadioSelected(1);
@@ -18,8 +18,7 @@ function Store() {
     };
     
     const initialOptions = {
-       
-            "client-id": "AYkGqbQwyJnA3MJrO5sQn4OO-hi2WCgGrliB1x6RNLOa5kp2Ah_0GwMpsdb85M67h-pU_U2DH6ktqMJw",
+        "client-id": paypal_clnt_id,
         currency: "USD",
         intent: "capture"
     };
@@ -27,6 +26,7 @@ function Store() {
     return (
     <>
     <h1>Store</h1>
+    {/* {process.env.REACT_APP_PAYPAL_CHECKOUT} */}
     <Row md={2} xs={1} lg={3} className="g-3">
         {storeItems.map(item=>( 
             <Col key={item.id}><StoreItem updateServiceChange={updateServiceChange} {...item}/></Col>
