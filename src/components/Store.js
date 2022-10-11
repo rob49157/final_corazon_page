@@ -57,7 +57,7 @@ function Store() {
             }
 
     </Row>
-    <h2>***I will contact you within 24hrs after the purchase is made to schedule a Tarot reading</h2>
+    <h2>***I will contact you within 24hrs after the purchase is made for scheduling purposes*** </h2>
     </>
         
   )

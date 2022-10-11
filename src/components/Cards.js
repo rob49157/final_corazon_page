@@ -47,9 +47,8 @@ function Cards() {
              <span className='quote'> "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.”
 
           ― Lao Tzu. </span>
-        <span className='quote1'> "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.”
-
-― Lao Tzu. </span>
+        <span className='quote1'> "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path."
+― Buddha. </span>
             </span>
           </div>
           {/* <div>
