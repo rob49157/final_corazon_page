@@ -31,5 +31,5 @@ https://www.paypal.com/buttons/smart?flowloggingId=8a47de0f82d100
 https://dev.to/collegewap/how-to-add-script-tag-to-reactjsx-2888 
 
 
-### paypal
-cree el Paypal.js y en prodcut items estoy colocando el boton
+### run
+npm run dev
