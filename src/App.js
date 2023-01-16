@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Services from "./components/Services";
 // import Products from "./components/Products";
 // import commerce from "./lib/Commerce";
@@ -38,7 +38,7 @@ function App() {
       <Navbar
         // cart={cart}
       />
-      <Switch>
+      <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/services" component={Services} />
         {/* <Route path='/products' component={Products} /> */}
@@ -86,7 +86,7 @@ function App() {
             );
           }}
         /> */}
-      </Switch>
+      </Routes>
     </Router>
   );
 }

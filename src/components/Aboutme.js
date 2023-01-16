@@ -1,5 +1,5 @@
 import React from 'react'
-import Maxpics from '../image/img-10.jpg'
+import Maxpics from '../images/img-10.jpg'
 
 function Aboutme() {
   return (
