@@ -1,5 +1,5 @@
 import React from 'react'
-import Maxpics from '../images/img-10.jpg'
+// import Maxpics from '../images/img-10.jpg'
 
 function Aboutme() {
   return (
@@ -7,11 +7,11 @@ function Aboutme() {
     <li className='cards__item'>
    
       <figure className='cards__item__pic-wrap' >
-        <img
+        {/* <img
           className='cards__item__img1'
           
           src={Maxpics}
-        />
+        /> */}
       </figure>
       <div className='cards__item__info1'>
         

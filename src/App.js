@@ -3,10 +3,8 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 import Services from "./components/Services";
-// import Products from "./components/Products";
-// import commerce from "./lib/Commerce";
 import "./styles/scss/styles.scss";
 import StoreItem from "./components/StoreItem"
 import Social from "./components/Social.js"
@@ -34,29 +32,21 @@ function App() {
   // };
 
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar
         // cart={cart}
       />
       <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/services" component={Services} />
-        {/* <Route path='/products' component={Products} /> */}
-        {/* <Route
-          path="/products"
-          render={(props) => <Products />}
-        /> */}
+        <Route path="/" exact element={<Home/>} />
+        <Route path="/services" element={<Services/>} />
         <Route
-          path="/StoreItem"
-          render={(props) => <StoreItem />}
+          path="/StoreItem" element={<StoreItem/>}
         />
         <Route
-          path="/Contact"
-          render={(props) => <Social />}
+          path="/Contact" element={<Social />}
         />
           <Route
-          path="/Store"
-          render={(props) => <Store />}
+          path="/Store" element={<Store/>}
         />
 
 
@@ -87,7 +77,7 @@ function App() {
           }}
         /> */}
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
