@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/final-corazon-page/static/css/main.d8245b1b.css",
+    "main.js": "/final-corazon-page/static/js/main.15c53ac2.js",
+    "index.html": "/final-corazon-page/index.html",
+    "main.d8245b1b.css.map": "/final-corazon-page/static/css/main.d8245b1b.css.map",
+    "main.15c53ac2.js.map": "/final-corazon-page/static/js/main.15c53ac2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8245b1b.css",
+    "static/js/main.15c53ac2.js"
+  ]
+}
