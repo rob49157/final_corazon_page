@@ -1,8 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-// import Maxpic from '../public/images/img-4.jpg'
-import Aboutme from './Aboutme';
+import Maxpic from '../images/img-10.jpg'
+
+import pic12 from "../images/img-12.jpg"
+import pic13 from "../images/img-13.jpg"
+import pic11 from "../images/img-11.jpg"
 
 function Cards() {
   return (
@@ -11,20 +14,20 @@ function Cards() {
        <ul className='cards__items'>
         
             <CardItem
-              src='images/img-12.jpg'
+            src={pic12}
               text='Tarot card reading is a form of cartomancy whereby practitioners use tarot cards purportedly to gain insight into the past, present or future. They formulate a question, then draw cards to interpret them for this end.'
               label='Tarot'
               path='/store'
               
             />
             <CardItem
-              src='images/img-13.jpg'
+              src={pic13}
               text='Reiki therapy is based on an Eastern belief that vital energy flows through your body. The idea is that a Reiki practitioner uses gentle touch -- or places their hands just above your body -- to help guide this energy in a way that promotes balance and healing.'
               label='Rakki'
               path='/store'
             />
             <CardItem
-              src='images/img-11.jpg'
+              src={pic11}
               text='What astrology really means?
               Astrology is generally defined as the belief that astronomical phenomena, like the stars overhead when you were born or the fact that Mercury is in retrograde, have the power to influence the daily events in our lives and our personality traits.'
              
@@ -42,7 +45,7 @@ function Cards() {
           
           <div className='maxprofile'> 
           
-            {/* <img className='maxpic' src={Maxpic}></img> */}
+            <img className='maxpic' src={Maxpic}></img>
             <span className='paragraph'> Maximiliano touches base on issues that are hard to deal with and will give you a detailed understanding of emotional blockages. He has a mission to help others develop their inner child and assist those that seek a greater understanding of self. His keywords are healing, insight, self-realization, and transformation. 
              <span className='quote'> "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.”
 

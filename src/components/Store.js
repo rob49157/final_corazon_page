@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import { Col, Card, Row } from "react-bootstrap";
-import storeItems from "../data/items.json"
+// import storeItems from "../data/items.json"
 import StoreItem from "./StoreItem.js"
 import {PayPalButtons, PayPalScriptProvider} from "@paypal/react-paypal-js";
 
@@ -23,7 +23,30 @@ function Store() {
         currency: "USD",
         intent: "capture"
     };
-
+    const storeItems = [
+        {
+            "id":1,
+            "name": "Tarot",
+            "time": 10,
+            "price": 20,
+            "imgUrl":require("../images/img-12.jpg")
+        },
+        {
+            "id":2,
+            "name": "Tarot",
+            "time": 30,
+            "price": 60,
+            "imgUrl":require("../images/img-12.jpg")
+        },
+        {
+            "id":3,
+            "name": "Tarot",
+            "time": 60,
+            "price": 100,
+            "imgUrl":require("../images/img-12.jpg")
+        }
+    
+    ]
     return (
     <>
     <h1>Store</h1>

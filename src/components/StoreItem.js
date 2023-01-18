@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Card, Row, Button } from "react-bootstrap";
 import formatcurrency from "../utilities/formatcurrency";
 
-function StoreItem({ id, name, price, imgUrl,time, updateServiceChange }) {
+function StoreItem({ id, name, price, imgUrl ,time, updateServiceChange }) {
 
     const handleServiceChange = () => {
         updateServiceChange(price)

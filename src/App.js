@@ -11,30 +11,11 @@ import Social from "./components/Social.js"
 import Store from "./components/Store.js"
 
 function App() {
-  // const [cart, setCart] = useState({});
-  // useEffect(() => {
-  //   fetchCart();
-  // }, []);
-
-  /**
-   * Retrieve the current cart or create one if one does not exist
-   * https://commercejs.com/docs/sdk/cart
-   */
-  // const fetchCart = () => {
-  //   commerce.cart
-  //     .retrieve()
-  //     .then((cart) => {
-  //       setCart(cart);
-  //     })
-  //     .catch((error) => {
-  //       console.log("There was an error fetching the cart", error);
-  //     });
-  // };
-
+  
   return (
     <BrowserRouter>
       <Navbar
-        // cart={cart}
+        
       />
       <Routes>
         <Route path="/" exact element={<Home/>} />
@@ -50,32 +31,7 @@ function App() {
         />
 
 
-        {/* <Route
-          path="/"
-          exact
-          render={(props) => {
-            return (
-              <>
-                <Hero merchant={merchant} />
-                {this.renderCartNav()}
-                {isCartVisible && (
-                  <Cart
-                    {...props}
-                    cart={cart}
-                    onUpdateCartQty={this.handleUpdateCartQty}
-                    onRemoveFromCart={this.handleRemoveFromCart}
-                    onEmptyCart={this.handleEmptyCart}
-                  />
-                )}
-                <ProductsList
-                  {...props}
-                  products={products}
-                  onAddToCart={this.handleAddToCart}
-                />
-              </>
-            );
-          }}
-        /> */}
+  
       </Routes>
     </BrowserRouter>
   );
