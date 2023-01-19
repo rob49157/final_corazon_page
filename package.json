@@ -1,6 +1,6 @@
 {
-  "name": "navbar-dropdown-v1",
-  "homepage": "https://rob49157.github.io/final-corazon-page",
+  "name": "final_corazon_page",
+ 
   "version": "0.1.0",
   "engines": {
     "node": "18.x"
