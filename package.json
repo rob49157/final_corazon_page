@@ -1,11 +1,13 @@
 {
   "name": "final_corazon_page",
+  
  
   "version": "0.1.0",
   "engines": {
     "node": "18.x"
   },
   "private": true,
+  "homepage": "https://gitname.github.io/final-corazon-page",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
