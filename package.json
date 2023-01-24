@@ -7,7 +7,7 @@
     "node": "18.x"
   },
   "private": true,
-  "homepage": "http://rob49517.github.io/final_corazon_page",
+  "homepage": "https://rob49517.github.io/final_corazon_page",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
