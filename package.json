@@ -7,7 +7,6 @@
     "node": "18.x"
   },
   "private": true,
-  "homepage": "https://rob49517.github.io/final_corazon_page",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -34,7 +33,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
