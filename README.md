@@ -7,15 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 http://www.coraz0n.com/
 
-# shopping cart 
-https://www.youtube.com/watch?v=lATafp15HWA&ab_channel=WebDevSimplified
 
-https://commercejs.com/docs/community/creating-a-cart-with-react-js/
 
-## ecommerce
-https://dashboard.chec.io/
-
-https://commercejs.com/docs/guides/cart-react
 
 ### checkout link
 # en app.js de la linea 121 empeze con el checkout. estoy en el step 1. cree el 
@@ -33,7 +26,10 @@ https://dev.to/collegewap/how-to-add-script-tag-to-reactjsx-2888
 
 ### run
 npm run dev
+npm run start
+
+## npm run deploy
 
 ## Github
 
-https://rob49157.github.io/
+https://rob49157.github.io/final-corazon-page/

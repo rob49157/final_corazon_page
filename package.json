@@ -7,7 +7,6 @@
     "node": "18.x"
   },
   "private": true,
-  
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
