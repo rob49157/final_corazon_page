@@ -13,7 +13,7 @@ import Store from "./components/Store.js"
 function App() {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/final_corazon_page'>
       <Navbar
         
       />
